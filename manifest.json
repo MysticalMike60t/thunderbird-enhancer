@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Thunderbird Enhancer",
+    "version": "0.1.0",
+    "description": "Enhance Thunderbird for daily use.",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "me@cadenf.com",
+            "strict_min_version": "91.0"
+        }
+    },
+    "icons": {
+        "16": "icons/wand.svg"
+    },
+    "permissions": ["menus", "messagesRead"],
+    "background": {
+        "scripts": ["src/background.js"],
+        "type": "module"
+    },
+    "web_accessible_resources": ["icons/*"]
+}
