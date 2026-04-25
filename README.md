@@ -13,6 +13,13 @@
 
 <hr />
 
+<div>
+<h2>Philosophy</h2>
+<p><strong>Security</strong> and <strong>functionality</strong> over everything.</p>
+</div>
+
+<hr />
+
 <div id="section-featureideas">
 <h2 id="section-featureideas-title">Feature Ideas</h2>
 <p id="section-featureideas-infobox">
@@ -45,6 +52,22 @@
 </ul>
 </li>
 </ol>
+</div>
+
+<hr />
+
+<div>
+<h2>Developing</h2>
+<div>
+<h3>Load into Betterbird</h3>
+<ol>
+<li><span>&#9755; Open hamburger menu <code>&equiv;</code>.</span></li>
+<li><span>&#9755; In the popup menu, click <code>Add-ons and themes</code>.</span></li>
+<li><span>&#9755; Click the settings icon <code>&#9881;</code> to the <i>right</i> of <code>Manage Your Extensions</code>.</span></li>
+<li><span>&#9755; In the popup menu, click <code>Debug Add-ons</code>.</span></li>
+<li><span>&#9755; Click <code>Load Temporary Add-on...</code> button.</span></li>
+</ol>
+</div>
 </div>
 
 <hr />
