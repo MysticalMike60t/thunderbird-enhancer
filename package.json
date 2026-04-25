@@ -1,0 +1,27 @@
+{
+    "name": "thunderbird-enhancer",
+    "version": "0.1.0",
+    "description": "To make the cool thingy a better and cooler thingy. ",
+    "main": "src/background.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "thunderbird",
+        "thunderbird-extension",
+        "thunderbird-addon",
+        "extension",
+        "addon",
+        "betterbird",
+        "betterbird-extension",
+        "betterbird-addon"
+    ],
+    "author": "Caden Finkelstein <me@cadenf.com>",
+    "license": "CC BY 4.0 DEED",
+    "packageManager": "pnpm@10.33.0",
+    "type": "module",
+    "readme": "README.md",
+    "devDependencies": {
+        "eslint": "^10.2.1"
+    }
+}

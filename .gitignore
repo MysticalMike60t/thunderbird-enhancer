@@ -1,1 +1,57 @@
+# --------- .gitignore --------- #
+# --- Caden Finkelstein's ------ #
+# --- Real Project Template ---- #
+# ------------- v1 ------------- #
+
+#: Ignore
+##: Directories
+###: Hidden
+/[.]*/
+###;
+###: NodeJS
+node_modules/
+###;
+###: Builds
+dist/
+build/
+out/
+###;
+##;
+##: Wildcard Files
+###: Generated
 *.xpi
+###;
+##;
+##: Specific Files
+##;
+#;
+
+#: Allow
+##: Directories
+###: Wildcard Directories
+###;
+###: Specific Directories
+!.github/
+!.zed/
+###;
+##;
+##: Files
+###: Wildcard Files
+####: Source Code
+!/src/*.js
+####;
+###;
+###: Specific Files
+####: Git Repository
+!README.md
+####;
+####: NodeJS
+!package.json
+####;
+####: PNPM
+!pnpm-lock.yaml
+!pnpm-workspace.yaml
+####;
+###;
+##;
+#;
