@@ -15,9 +15,9 @@
 
 <div id="section-featureideas">
 <h2 id="section-featureideas-title">Feature Ideas</h2>
-<pre id="section-featureideas-infobox">
+<p id="section-featureideas-infobox">
 <em id="section-featureideas-infobox-text">Sorted by <strong>Priority</strong><sup><a href="#definitions-featureideas-priority" id="section-featureideas-infobox-text-prioritydefinitionlink">[definition]</a></sup>.</em>
-</pre>
+</p>
 <ol>
 <li>
 <h3>Expected Features</h3>
@@ -32,7 +32,7 @@
 <ul>
 <li>
 <span><b>Email analyzer</b></span>
-<pre>Tree style view of emails with expansion, and maybe even OSINT integrations.</pre>
+<p>Tree style view of emails with expansion, and maybe even OSINT integrations.</p>
 </li>
 </ul>
 </li>
