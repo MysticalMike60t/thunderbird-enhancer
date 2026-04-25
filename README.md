@@ -59,7 +59,7 @@
 <div>
 <h2>Developing</h2>
 <div>
-<h3>Load into Betterbird</h3>
+<h3>Load into Thunderbird/Betterbird</h3>
 <ol>
 <li><span>&#9755; Open hamburger menu <code>&equiv;</code>.</span></li>
 <li><span>&#9755; In the popup menu, click <code>Add-ons and themes</code>.</span></li>
