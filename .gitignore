@@ -7,14 +7,15 @@
 ##: Directories
 ###: Hidden
 /[.]*/
+.git/
+.venv/
 ###;
 ###: NodeJS
 node_modules/
 ###;
 ###: Builds
-dist/
 build/
-out/
+dist/
 ###;
 ##;
 ##: Wildcard Files

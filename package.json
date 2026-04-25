@@ -4,7 +4,19 @@
     "description": "To make the cool thingy a better and cooler thingy. ",
     "main": "src/background.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "build": "make build",
+        "build:dist": "make build-dist",
+        "watch": "make watch",
+        "clean": "make clean",
+        "backup:dists": "make backup-zipped-build",
+        "format:makefile": "mbake format -v --validate --config=\"$(pwd)/.bake.toml\" Makefile",
+        "format:makefile:pyenv": "pyenv exec mbake format -v --validate --config=\"$(pwd)/.bake.toml\" Makefile",
+        "validate:makefile:diff": "mbake format -dv --validate --config=\"$(pwd)/.bake.toml\" Makefile",
+        "validate:makefile:diff:pyenv": "pyenv exec mbake format -dv --validate --config=\"$(pwd)/.bake.toml\" Makefile",
+        "install:dep:mbake": "python -m pip install mbake",
+        "install:dep:mbake:pyenv": "pyenv exec python -m pip install mbake",
+        "help:dir:tree": "tree -ACNRatx --gitignore --du --sort name --metafirst -- \"$(pwd)\"",
+        "help:dir:tree:verbose": "tree -ACDNRQachgptux --gitignore --du --sort name --selinux --inodes --metafirst -- \"$(pwd)\""
     },
     "keywords": [
         "thunderbird",
@@ -22,6 +34,10 @@
     "type": "module",
     "readme": "README.md",
     "devDependencies": {
-        "eslint": "^10.2.1"
+        "@types/thunderbird-webext-browser": "^127.0.0",
+        "concurrently": "^9.2.1",
+        "eslint": "^10.2.1",
+        "make": "^0.8.1",
+        "typescript": "^6.0.3"
     }
 }

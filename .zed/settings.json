@@ -1,0 +1,27 @@
+{
+    "languages": {
+        "Make": {
+            "tab_size": 4,
+            "auto_indent_on_paste": false,
+            "indent_list_on_tab": true,
+            "auto_indent": "preserve_indent",
+            "hard_tabs": true,
+            "format_on_save": "on",
+            "extend_list_on_newline": true,
+            "allow_rewrap": "in_comments",
+            "formatter": {
+                "external": {
+                    "command": "mbake",
+                    "arguments": [
+                        "format",
+                        "-v",
+                        "--validate",
+                        "--config=\"$(pwd)/.bake.toml\"",
+                        "{buffer_path}",
+                        "-",
+                    ],
+                },
+            },
+        },
+    },
+}

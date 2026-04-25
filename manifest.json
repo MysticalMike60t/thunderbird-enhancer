@@ -12,10 +12,26 @@
     "icons": {
         "16": "icons/wand.svg"
     },
-    "permissions": ["menus", "messagesRead"],
+    "permissions": [
+        "menus",
+        "menus.overrideContext",
+        "messagesRead",
+        "accountsRead",
+        "tabs"
+    ],
     "background": {
-        "scripts": ["src/background.js"],
+        "scripts": ["background.js"],
         "type": "module"
     },
-    "web_accessible_resources": ["icons/*"]
+    "web_accessible_resources": ["icons/*"],
+    "experiment_apis": {
+        "myTooltip": {
+            "schema": "experiment/schema.json",
+            "parent": {
+                "scopes": ["addon_parent"],
+                "script": "experiment/implementation.js",
+                "paths": [["myTooltip"]]
+            }
+        }
+    }
 }
