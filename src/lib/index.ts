@@ -1,7 +1,7 @@
-import debug from "./debug.js";
-import ICONS from "./icons.js";
+import debug from "./debug/index.js";
+import ICONS from "./icons/icons.js";
 import interaction from "./interaction/index.js";
-import theme from "./theme.js";
+import theme from "./theme/index.js";
 
 const lib = {
     debug,

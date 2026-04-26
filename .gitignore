@@ -17,6 +17,9 @@ node_modules/
 build/
 dist/
 ###;
+###: Backups
+.xpi-backups/
+###;
 ##;
 ##: Wildcard Files
 ###: Generated
