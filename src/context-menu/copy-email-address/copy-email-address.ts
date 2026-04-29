@@ -1,4 +1,4 @@
-import ICONS from "../../lib/icons.js";
+import ICONS from "../../lib/icons/icons.js";
 
 function addContextMenuOption() {
     if (typeof messenger === "undefined") {

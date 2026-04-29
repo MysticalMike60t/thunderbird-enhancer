@@ -1,6 +1,6 @@
-import ICONS from "./icons.js";
-import lib from "./index.js";
-import theme from "./theme.js";
+import ICONS from "../icons/icons.js";
+import lib from "../index.js";
+import theme from "../theme/index.js";
 
 export default function debug() {
     console.debug('Initializing "Thunderbird Enhancer"');
